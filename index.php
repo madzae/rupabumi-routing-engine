@@ -277,7 +277,7 @@ function setupAutocomplete(inputId, suggId, onSelect) {
         }
 
         acTimers[inputId] = setTimeout(function() {
-            fetch('https://labs.rupabumi.com/poi/index.php?q=' + encodeURIComponent(val))
+            fetch('poi.php?q=' + encodeURIComponent(val))
                 .then(function(r) { return r.json(); })
                 .then(function(results) {
                     suggBox.innerHTML = '';
