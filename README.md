@@ -39,7 +39,7 @@ import json
 
 features = []
 
-with open("jakarta.geojsonseq", "r", encoding="utf-8") as f:
+with open("mataram.geojsonseq", "r", encoding="utf-8") as f:
     for line in f:
         line = line.strip()
         if line:
@@ -50,7 +50,7 @@ geojson = {
     "features": features
 }
 
-with open("jakarta.geojson", "w", encoding="utf-8") as f:
+with open("mataram.geojson", "w", encoding="utf-8") as f:
     json.dump(geojson, f)
 
 print("done")
