@@ -6,7 +6,7 @@ The routing graph is generated from OpenStreetMap data and uses a modified Dijks
 
 ## Graph Generation
 
-### 1. Extract city data from Indonesia OSM PBF
+### 1. Extract city data from OSM PBF
 
 ```bash
 osmium extract --bbox 116.04,-8.66,116.18,-8.52 indonesia.osm.pbf -o mataram.osm.pbf
