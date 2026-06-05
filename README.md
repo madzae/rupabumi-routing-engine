@@ -76,32 +76,3 @@ Example weighting strategy:
 | residential | Low |
 | service | Lowest |
 
-## Workflow
-
-```text
-OpenStreetMap PBF
-        ↓
-   Osmium Extract
-        ↓
-   Highway Filter
-        ↓
- GeoJSON Sequence
-        ↓
- GeoJSON Conversion
-        ↓
-   Graph Builder
-        ↓
- Modified Dijkstra
-        ↓
-      Route
-```
-
-## Features
-
-- Vanilla JavaScript implementation
-- OpenStreetMap-based routing
-- City-scale graph generation
-- Modified Dijkstra algorithm
-- Road-class-aware weighting
-- No external routing engine dependencies
-- Fast route calculation for urban areas
