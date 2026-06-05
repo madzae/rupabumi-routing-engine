@@ -4,7 +4,9 @@
 
 https://labs.rupabumi.com/routing/
 
-## Rupabumi City-Scale Routing Engine is a lightweight city-scale routing engine built with vanilla JavaScript.
+##
+
+Rupabumi City-Scale Routing Engine is a lightweight city-scale routing engine built with vanilla JavaScript.
 
 The routing graph is generated from OpenStreetMap data and uses a modified Dijkstra algorithm with custom road weighting. Major roads are preferred over residential and service roads, resulting in more realistic routes for urban navigation.
 
