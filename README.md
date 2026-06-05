@@ -1,7 +1,5 @@
 # Rupabumi City-Scale Routing Engine
 
-##
-
 https://rupabumi.com (Peta Navigasi dan Data)
 
 ## Demo
